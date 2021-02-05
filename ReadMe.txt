@@ -44,7 +44,7 @@
     4.3. The string "DefaultConnection" is written to the appsetting.json file.
 
     "ConnectionStrings": {
-        "DefaultConnection": "Server = (localdb) \\ mssqllocaldb; Database = YMS5177CMSDb; Trusted_Connection = True;"
+        "DefaultConnection": "Server=NIHOO;Database=CMSDb;uid=nihatcan;pwd=123;"
     }
 
 5. Swashbuckle Integration
@@ -65,12 +65,12 @@
                     Contact = new OpenApiContact () (
                         E-mail = "burak.yilmaz@bilgeadam.com",
                         Name = "Burak Yilmaz",
-                        Url = new Uri ("https://github.com/Burakkylmz")
+                        Url = new Uri ("https://github.com/nihatcanertug")
                     },
                     License = new OpenApiLicense ()
                     {
                         Name = "MIT License",
-                        Url = new Uri ("https://github.com/Burakkylmz")
+                        Url = new Uri ("https://github.com/nihatcanertug")
                     }
                 });
             });
