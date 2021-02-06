@@ -63,8 +63,8 @@
                     Version = "V.1",
                     Description = "CMS API",
                     Contact = new OpenApiContact () (
-                        E-mail = "burak.yilmaz@bilgeadam.com",
-                        Name = "Burak Yilmaz",
+                        E-mail = "nihatcanertug@gmail.com",
+                        Name = "Nihatcan Ertuğ",
                         Url = new Uri ("https://github.com/nihatcanertug")
                     },
                     License = new OpenApiLicense ()
